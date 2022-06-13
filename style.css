@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right, rgb(63, 76, 107), rgb(96, 108, 136));
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.calc {
+    background-color: lightblue;
+    border-radius: 8px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+table tr {
+    display: block;
+}
+
+table tr td {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type="text"] {
+    width: 119px;
+}
+
+input[type="button"] {
+    width: 30px;
+    height: 25px;
+    background-color: rgb(110, 105, 105);
+    color: white;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    transition: all 0.5s ease 0s;
+}
